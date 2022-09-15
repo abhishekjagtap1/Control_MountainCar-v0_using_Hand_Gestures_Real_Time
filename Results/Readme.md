@@ -54,5 +54,5 @@ mountainCar-v0 environment to control the actions. Generally the mountainCar-v0 
 To achieve this run `python Controlling_mountain_car_real_time.py`  
 
 
-The Training loss and Evaluation Metrics will be discussed in detail in the Report.
+The Training loss and Evaluation Metrics and dataset properties will be discussed in the report.
 
