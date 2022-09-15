@@ -12,9 +12,10 @@ The main goal is to control the MountainCar-v0 using the gestures done infront o
 
 ## MountainCar-v0 gym  environment
 
-Open AI Gym environment is pretty straightforward to setup, Run `pip install gym'` To Control MountainCar-v0 we have three possible 
-actions/states [left, right and stop]. we will choose 3 gestures that map to a certain action.
+Open AI Gym environment is pretty straightforward to setup, Run `pip install gym'` 
+As we have three states/actions to control MountainCar-v0 [left, right and stop], we will choose 3 gestures that map to a certain action.
 
+Dataset
 
 
 ![1](/home/uchiha_dj/PycharmProjects/Motor_AI_Challenges/Results/back_correct.png)         ![](/home/uchiha_dj/PycharmProjects/Motor_AI_Challenges/Results/forward_correct.png)    ![](/home/uchiha_dj/PycharmProjects/Motor_AI_Challenges/Results/result_wrong.png)   
@@ -53,5 +54,5 @@ mountainCar-v0 environment to control the actions. Generally the mountainCar-v0 
 To achieve this run `python Controlling_mountain_car_real_time.py`  
 
 
-The Training loss and Evaluation Metrics and dataset properties will be discussed in the report.
+The Training loss and Evaluation Metrics will be discussed in detail in the Report.
 
