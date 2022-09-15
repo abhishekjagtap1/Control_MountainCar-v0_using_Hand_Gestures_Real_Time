@@ -133,7 +133,7 @@ imageNumber = 0
 counter = 0
 actiontaken = False
 actioncount = 0
-actiondelay = 0.5
+actiondelay = 1
 
 
 """ 
@@ -245,7 +245,7 @@ while True:
             #cv2.drawContours(clone, [hand_segmentation + (right, top)], -1, (0, 0, 255))
             # Write the Prediction along with its probability on the Webcam Feed
             text = pred_class, pred_prob.item()
-            cv2.putText(clone, str(text), (20, 250), cv2.FONT_ITALIC, 1, (255, 0, 35), 2)
+            cv2.putText(clone, str(text), (20, 250), cv2.FONT_ITALIC, 1, (0, 0, 255), 2)
 
             '''
             The action required to move forward is int(2), Move Back is int(0) and to Stop is int(1) a
@@ -261,9 +261,11 @@ while True:
             if pred_class == 'Stop':
                 action = 1
 
+            pred_action = action
+
             actiontaken = True
             # Let the environment take the predicted action
-            env.step(action)
+            env.step(pred_action)
             #Observe the state of the environmnet
             state2 = env.step(action)[0]
             reward = env.step(action)[1]
