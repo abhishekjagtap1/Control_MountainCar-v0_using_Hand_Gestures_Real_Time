@@ -15,9 +15,9 @@ The main goal is to control the MountainCar-v0 using the gestures done infront o
 Open AI Gym environment is pretty straightforward to setup, Run `pip install gym'` 
 As we have three states/actions to control MountainCar-v0 [left, right and stop], we will choose 3 gestures that map to a certain action.
 
-Dataset![forward_correct](https://user-images.githubusercontent.com/67980173/190501977-4e5f7e18-b6ab-4cea-a3a7-ce56510f365d.png)
+Dataset
 
-![back_correct](https://user-images.githubusercontent.com/67980173/190501903-26dec0bf-38d2-4646-8cb6-8dd8715b52e1.png)  ![result_wrong](https://user-images.githubusercontent.com/67980173/190502009-1a52d2fe-a114-4da9-b0b9-19756c146bac.png)
+![forward_correct](https://user-images.githubusercontent.com/67980173/190501977-4e5f7e18-b6ab-4cea-a3a7-ce56510f365d.png) ![back_correct](https://user-images.githubusercontent.com/67980173/190501903-26dec0bf-38d2-4646-8cb6-8dd8715b52e1.png)  ![result_wrong](https://user-images.githubusercontent.com/67980173/190502009-1a52d2fe-a114-4da9-b0b9-19756c146bac.png)
 
 
 
